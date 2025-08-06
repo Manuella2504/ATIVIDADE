@@ -1,1 +1,62 @@
-@import
+body {
+    background-color: #1a1a1a; 
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+      display: flex;
+    background-color: #333333; 
+    padding: 40px;
+    border-radius: 20px;
+    width: 380px;
+    flex-direction: column;
+    border: 3px solid #901680; 
+}
+
+h1 {
+    text-align: center;
+    color: #00ffff;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+label {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #f766e4; 
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #2b2b2b;
+    color: #00ffff; 
+    border: 2px solid #5d5d5d;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #00ffff;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #bd2eaa;
+    color: #1a1a1a; 
+    border: 2px solid #f766e4;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
